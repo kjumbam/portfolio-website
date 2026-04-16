@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, Code, Sparkles, Terminal, ChevronRight, ExternalLink, Download, Phone, MapPin } from 'lucide-react';
+import { Github, Mail, Code, Sparkles, Terminal, ChevronRight, ExternalLink, Download, Phone, MapPin } from 'lucide-react';
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -475,15 +475,6 @@ export default function Portfolio() {
             >
               <Github className="w-5 h-5" />
               GitHub
-            </a>
-            <a 
-              href="https://www.linkedin.com/in/kiwo-jumbam-80ab6537b/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="group flex items-center gap-3 px-6 py-3 border-2 border-indigo-500/50 hover:border-indigo-400 hover:bg-indigo-500/10 rounded-lg font-semibold transition-all"
-            >
-              <Linkedin className="w-5 h-5" />
-              LinkedIn
             </a>
           </div>
 
